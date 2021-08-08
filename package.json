@@ -1,0 +1,33 @@
+{
+  "name": "q3-topic-vite",
+  "version": "1.0.0",
+  "description": "Q3 plan: 实现toy-vite,  esbuild应用；研究各种打包工具的功能的构建手段",
+  "main": "www.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOYZHANG/Q3-TOPIC-VITE.git"
+  },
+  "bin": {
+    "molu-vite": "./bin/www.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YOYZHANG/Q3-TOPIC-VITE/issues"
+  },
+  "homepage": "https://github.com/YOYZHANG/Q3-TOPIC-VITE#readme",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "koa": "^2.13.1",
+    "path": "^0.12.7"
+  },
+  "dependencies": {
+    "es-module-lexer": "^0.7.1",
+    "koa-static": "^5.0.0",
+    "magic-string": "^0.25.7"
+  }
+}
